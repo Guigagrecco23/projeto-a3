@@ -1,0 +1,115 @@
+body{
+	background: rgb(157,200,141);
+	background: linear-gradient(250deg, rgb(255, 255, 255) 50%, rgb(149, 168, 165) 100%);
+	height: 100vh;
+  width: 100%;
+}
+/* style.css */
+
+.title {
+  font-size: 70px;
+  float: left;
+  color: black;
+  text-shadow: 0 0.2rem 0.2rem rgb(71, 86, 83)
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 855px;
+    height: 180px;
+    margin: 60px ;
+    background: #164a41;
+    padding:40px;
+    box-sizing: border-box;
+    align-items: center;
+	
+  
+ 
+}
+ h1{
+  display: flex;
+  
+  justify-content: space-between;
+  position: relative;
+  width: 700px;
+  height: 800px;
+  margin: 60px ;
+  background: #164a41;
+  padding:80px;
+  
+  align-items: baseline;
+  
+
+ }
+
+#container:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+ .fixedContainer {
+
+     height: 400px;
+     overflow: auto;
+ }
+ 
+#week{
+  width: 198px;
+  height: 100px;
+  justify-content: space-between;
+
+ }
+#button{
+  width: 200px;
+  height: 40px;
+  margin-top: 10PX;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+  
+  box-sizing: border-box;
+  box-shadow: gray;
+  transition: transform all 200ms ease-in-out;
+
+
+}
+
+button:hover{
+  transform: scale(1.02);
+}
+    
+
+
+#evento.proptrf{
+  font-size: 50px;
+  float: left;
+  color: black;
+  text-shadow: 0 0.2rem 0.2rem rgb(1, 1, 1)
+ /*dia da semana*/
+}
+
+
+
+.day{
+
+  margin: 10px;
+ 
+  font-size: 20px;
+  float: left;
+  color: black;
+  text-shadow: 0 0.2rem 0.2rem rgb(1, 1, 1)
+ /*dia da semana*/
+}
+
+.month {
+  margin: 10px;
+  float: right;
+  font-size: 20px;
+  
+  color: black;
+  text-shadow: 0 0.2rem 0.2rem rgb(1, 1, 1)
+}
